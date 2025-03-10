@@ -103,6 +103,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ---
 
 ## Acknowledgments
-- Inspired by OpenAI's GPT architecture.
 - Special thanks to the Gradio and PyTorch communities for their powerful tools.
 

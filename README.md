@@ -1,11 +1,10 @@
-# GPT Text Generator
+# Text Generator
 
-This project is a GPT-based text generator built using a custom GPT model. It uses Gradio for creating an interactive web-based interface, allowing users to input text prompts and receive generated text completions.
+This project is a text generator. It uses Gradio for creating an interactive web-based interface, allowing users to input text prompts and receive generated text completions.
 
 ---
 
 ## Features
-- **Custom GPT Model**: Utilizes a fine-tuned GPT model.
 - **Interactive Gradio Interface**: Allows for text input and configuration of generation parameters.
 - **Multiple Samples**: Generate multiple completions for the same input.
 - **Predefined Examples**: Provides example prompts that can be used for quick testing.
@@ -74,12 +73,12 @@ The interface provides predefined example prompts. Clicking on an example will p
 ---
 
 ## Model Details
-The project uses a custom GPT model fine-tuned for text generation. It supports dynamic input and generates coherent completions based on user prompts. While similar to OpenAI's GPT models, this implementation is entirely custom-built.
+It supports dynamic input and generates coherent completions based on user prompts. This implementation is entirely custom-built.
 
 ---
 
 ## Key Libraries
-- **PyTorch**: For loading and running the GPT model.
+- **PyTorch**: For loading and running the model.
 - **Gradio**: For creating the web-based user interface.
 - **tiktoken**: For tokenizing and decoding text.
 
